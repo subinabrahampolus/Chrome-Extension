@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parentDiv{
+    padding: 20px;
+}
+.inputField {
+  width: 100%;
+  padding: 10px;
+
+  box-sizing: border-box;
+}
+#saveInput {
+  background-color: #5f9341;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 1px solid #5f9341;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#saveInput:hover {
+  background-color: #4c7037;
+  cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li{
+    margin-top: 5px;
+}
+li a {
+    color: #5f9341;
+    background-color: transparent;
+  }
