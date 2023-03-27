@@ -2,16 +2,17 @@
   margin: 0;
   padding: 0;
 }
-.parentDiv{
-    padding: 20px;
+.parentDiv {
+  padding: 20px;
 }
 .inputField {
+  min-width: 400px;
   width: 100%;
   padding: 10px;
 
   box-sizing: border-box;
 }
-#saveInput {
+#saveInput, #saveUrl {
   background-color: #5f9341;
   color: white;
   padding: 10px 20px;
@@ -20,18 +21,32 @@
   border-radius: 5px;
   margin-top: 10px;
 }
-#saveInput:hover {
+#saveInput:hover, #saveUrl:hover {
   background-color: #4c7037;
   cursor: pointer;
 }
-ul {
-    list-style-type: none;
-    padding-left: 0px;
+#deleteButton{
+    background-color: white;
+    color: #5f9341;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
 }
-li{
-    margin-top: 5px;
+#deleteButton:hover{
+    background-color: rgb(238, 227, 227);
+    cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+li {
+  margin-top: 5px;
 }
 li a {
-    color: #5f9341;
-    background-color: transparent;
-  }
+  color: #5f9341;
+  background-color: transparent;
+}
